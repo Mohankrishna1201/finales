@@ -423,7 +423,7 @@ video {
 
 .video-container {
   width: 100%; /* Adjust as needed */
-  height: auto; /* Adjust as needed */
+  min-height:100%; /* Adjust as needed */
   text-align: center; /* Center the video */
 }
 
