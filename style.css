@@ -439,6 +439,18 @@ video {
   }
 }
 
+@media (max-width: 760px) {
+  .desktop-hidden {
+    display: block;
+  }
+.video-container {
+  width: 100%; /* Adjust as needed */
+  min-height:100%; /* Adjust as needed */
+  object-fit: contain; /* Center the video */
+}
+	
+}
+
 
 @media (min-width: 1024px) {
   #hero {
